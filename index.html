@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twitch API</title>
+
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="container" id="body">
+        <div id="pink">
+            <p class="col-xs-4">Twitch.tv</p>
+            <div class="col-xs-4 buttons">
+                <button class="btn selector active" id="all">All</button>/
+                <button class="btn selector" id="online">Online</button>/
+                <button class="btn selector" id="offline">Offline</button>
+            </div>
+        </div>
+        <div id="yellow">
+            <div id="streamer"></div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
