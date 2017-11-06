@@ -1,0 +1,21 @@
+body{
+  background-color:#e63996;
+  color: black;
+}
+
+#setTime{
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+button{
+  font-size: 30px;
+  border: 0;
+  border-radius: 9px;
+  background-color: transparent;
+  
+}
+
+#runningTime{
+  font-size: 70px;
+}
