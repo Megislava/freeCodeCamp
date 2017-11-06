@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-1">
+                <button class="strictMode" onclick="strictMode()">Strict</br> Mode</button>
+            </div>
+            <div class="col-md-7 main">
+                <div class="title">Simon Game
+                    <div class="buttons">
+                        <button class="btn" onclick="startGame()" id="startButton">Start</button>
+                        <button class="btn" onclick="resetGame()" id="stopButton">Reset</button>
+                    </div>
+                </div>
+                <div class="gameBoard">
+                    <button class="btn btn-warning" id="1"></button><button class="btn btn-primary" id="2"></button>
+                    <button class="btn btn-danger" id="3"></button><button class="btn btn-success" id="4"></button>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="lengthRandomArr">
+                    <div class="number"></div>
+                </div>
+                <div class="winning">You win!</br> The game will start over</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
