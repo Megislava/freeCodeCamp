@@ -1,0 +1,77 @@
+.main{
+  z-index: 3;
+}
+
+.strictMode{
+  margin-top: 60px;
+  border:0;
+  border-radius: 5px;
+  width: 60px;
+  height: 320px;
+}
+
+.title{
+  margin-top: 20px;
+  text-aling: center;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.buttons{
+  position: absolute;
+  left: 455px;
+  top: 45px;
+}
+
+.buttons button{
+  display: block;
+  width: 160px;
+  margin-top: 4px;
+  height: 35px;
+}
+
+.gameBoard button{
+  height: 100px;
+  width: 300px;
+  border-radius:0;
+  margin: 1px;
+  border-width: 2px;
+}
+
+.lengthRandomArr{
+  position: absolute;
+  top: 100px;
+  left: -90px;
+  border: 10px solid grey;
+  color: grey;
+  opacity: 0.3;
+  z-index: 0;
+  border-radius: 50%;
+  height: 290px;
+  width: 290px;
+  font-size: 100px;
+  text-align: center;
+  padding: 60px;
+}
+
+.number{
+ z-index: 4;
+}
+
+.winning{
+  display: none;
+  position: absolute;
+  left: -800px;
+  top: 40px;
+  height: 350px;
+  width: 1000px;
+  margin-bottom: 40px;
+  border: 1px solid grey;
+  text-align: center;
+  font-size: 70px;
+  padding: 30px;
+  background-color:#cccccc;
+  z-index: 10;
+  
+  
+}
