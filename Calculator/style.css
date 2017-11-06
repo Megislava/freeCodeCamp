@@ -1,0 +1,65 @@
+#calc{
+  margin-top: 30px;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 8px;
+  height: 410px;
+  max-width: 330px;
+}
+
+#title{
+  font-family: "Courier New";
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#entry{
+  border: 1px solid;
+  border-radius: 4px; 
+  max-width: 285px;
+  margin-left: 12px;
+}
+
+#answer{
+  margin:0;
+  padding: 8px;
+  font-size: 20px;
+  min-height: 46px;
+  text-align: right;
+}
+
+#buttons{
+  margin: 20px 0px 0px 20px;  
+}
+
+button{
+  border: none;
+  margin: 0 4px 10px 8px;
+  height: 42px;
+  width: 52px;
+  border-radius: 6px;
+}
+
+.all-red{
+  background-color: #ff2821 ;
+}
+
+.red{
+  background-color: #ff7c70;
+}
+
+.zero{
+  width: 120px;  
+}
+
+.equal{
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -52px;
+  height: 94px;
+}
+
+.red_frame{
+  border: 1px outset #ff7c70;
+}
